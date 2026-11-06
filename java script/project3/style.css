@@ -1,0 +1,53 @@
+body {
+    background: #dff6ff;
+    font-family: Arial;
+    text-align: center;
+}
+
+.game {
+    background: white;
+    width: 380px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #20a99b;
+}
+
+h2 {
+    color: #555;
+}
+
+button {
+    background: #20b89a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.hole {
+    height: 95px;
+    background: #efa9a9;
+    border-radius: 50%;
+    border: 3px solid #e9b5a0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#message {
+    color: #d17b91;
+}

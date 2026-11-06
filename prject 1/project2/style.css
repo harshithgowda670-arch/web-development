@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(43, 226, 80);
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial ; 
+}
+
+.magic-btn{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    padding:15px 30px;
+    border:none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.magic-btn:hover{
+    background-color: black;
+    transform: scale(1.1);
+}

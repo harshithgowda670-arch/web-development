@@ -1,0 +1,40 @@
+body {
+    background: skyblue;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(300px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

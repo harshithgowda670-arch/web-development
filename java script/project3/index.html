@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mevi Whack A Mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+    <h1>🔨 MEVI WHACK-A-MOLE</h1>
+    <p>Catch the mole and score points!</p>
+
+    <h2>Score: <span id="score">0</span></h2>
+    <h2>Time: <span id="time">30</span> seconds</h2>
+
+    <button id="start" onclick="startGame()">START GAME</button>
+
+    <div class="grid">
+        <div class="hole" onclick="hit(0)"></div>
+        <div class="hole" onclick="hit(1)"></div>
+        <div class="hole" onclick="hit(2)"></div>
+        <div class="hole" onclick="hit(3)"></div>
+        <div class="hole" onclick="hit(4)"></div>
+        <div class="hole" onclick="hit(5)"></div>
+        <div class="hole" onclick="hit(6)"></div>
+        <div class="hole" onclick="hit(7)"></div>
+        <div class="hole" onclick="hit(8)"></div>
+    </div>
+
+    <h3 id="message">Good luck! 😊</h3>
+</div>
